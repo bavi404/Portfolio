@@ -1,0 +1,28 @@
+.about-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  
+
+  @media(max-width: 831px) {
+    width: 20rem;
+  }
+}
+
+.about-technologies {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+
+  .about-technologies-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    img {
+      height: 44px;
+    }
+  }
+}
